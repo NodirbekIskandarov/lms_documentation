@@ -9,7 +9,7 @@ export const ManagementComponent = styled.div`
     text-align: center;
     font-size: 64px;
 
-    @media (max-width: 1000px) {
+    @media (max-width: 1200px) {
       font-size: 48px;
     }
 
