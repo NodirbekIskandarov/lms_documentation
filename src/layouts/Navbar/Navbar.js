@@ -10,7 +10,9 @@ import logo from "../../assets/images/tift logo.jpeg";
 import { Link } from "react-router-dom";
 
 function Navbar() {
+
   const [iks, setIks] = useState(false)
+
   return (
     <NavbarComponent>
       <NavbarChildComponent>
@@ -112,7 +114,7 @@ function Navbar() {
         </div>
         <div className="button_part">
           <Button>Konsultatsiya</Button>
-          <button className="menu_bars" onClick={setIks(true)}>
+          <button className="menu_bars" onClick={()=>setIks(true)}>
             <svg
               width="24"
               height="24"
@@ -132,7 +134,7 @@ function Navbar() {
         <div className={iks===true ? "menu_active" : "menu_when_media"}>
           <div className="header_part_menu">
             <Link to="/"><img src={logo} alt="tift_logo" /></Link>
-            <button onClick={setIks(false)}>x</button>
+            <button onClick={()=>setIks(false)}>x</button>
           </div>
           <NavbarMenuComponent>
             <div className="hover_part">
