@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
-export const ManagementComponent = styled.div`
+export const ManagementSection = styled.section`
   width: 90%;
   margin: 0 auto;
-  padding-top: 120px;
+  padding: 120px 0 120px;
 
   .management__component-h1{
     text-align: center;
@@ -21,7 +21,7 @@ export const ManagementComponent = styled.div`
 
   .management__component-paragrif{
     text-align: center;
-    margin: 24px 0 32px;
+    margin: 24px 0 56px;
     font-size: 24px;
     @media (max-width: 768px) {
       font-size: 14px;
@@ -57,7 +57,7 @@ export const ManagementButtonVideo = styled.button`
   border-radius: 10px;
   font-size: 20px;
   font-weight: 500;
-  padding: 15.6px 0;
+  padding: 18px 0;
   &:hover{
     background-color: black;
     color: white;
@@ -65,12 +65,23 @@ export const ManagementButtonVideo = styled.button`
     cursor: pointer;
   }
   @media(max-width: 768px){
-    padding: 12.8px 0;
+    padding: 14.8px 0;
     gap: 12px;
   }
 
   div{
     display: flex;
     align-items: center;
+  }
+`
+
+export const ManagementImg = styled.div`
+  width: 100%;
+  margin-top: 120px;
+  img{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 13px 43px 0 #0000005F;
+    border-radius: 8px;
   }
 `
