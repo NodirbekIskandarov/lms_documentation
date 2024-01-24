@@ -10,8 +10,13 @@ export const NavbarChildComponent = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  .menus {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
   .link {
-    // width: 15%;
     text-decoration: none;
     color: black;
     &:hover {
@@ -21,51 +26,88 @@ export const NavbarChildComponent = styled.div`
       width: 100%;
     }
   }
+  .button_part {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .menu_bars {
+      display: none;
+    }
+  }
+  /* .menu_active {
+    display: block;
+  } */
+  .menu_when_media {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    background-color: red;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+    .header_part_menu {
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid red;
+    }
+  }
+  @media (max-width: 990px) {
+    .button_part {
+      width: 30%;
+      .menu_bars {
+        display: block;
+        border: none;
+        background-color: white;
+      }
+    }
+    .menus {
+      display: none;
+    }
+  }
 `;
 
 export const NavbarMenuComponent = styled.div`
-  // width: 50%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  .show_part {
-    // width: 100%;
-    background-color: white;
-    display: none;
-    position: absolute;   
-    padding: 10px 0;
-    /* padding-right */
-    box-shadow: 10px 10px 10px 10px gray;
-    z-index: 6;
-    border: 1px solid white;
-    .link {
-        padding: 10px;
-        width: 100%;
-        text-decoration: none;
-        color: black;
-        margin-top: 100px;
-        &:hover {
-          background-color: lightgray;
-        }
-    }
-  }
-  .hover_part:hover .show_part {
-    display: block;
-    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
-  }
   .hover_part {
-    // width: 30%;
+    width: 100%;
     position: relative;
     p {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        align-items: center;
+      display: flex;
+      align-items: center;
+      &:hover .show_part {
+        display: block;
       }
+      .show_part {
+        width: 200px;
+        display: none;
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: white;
+        box-shadow: 0 6px 16px 0 rgba(0,0,0,.08), 0 3px 6px -4px rgba(0,0,0,.12), 0 9px 28px 8px rgba(0,0,0,.05);
+        .link_item {
+          width: 100%;
+          padding: 5px 10px;
+          &:hover {
+            background-color: lightgray;
+          }
+        }
+      }
+    }
   }
 `
 export const Button = styled.button`
-  width: 15%;
+  width: 100%;
   color: white;
   background: linear-gradient(90deg,#344bc1,#834bf3);
   background-size: 200% 200%;
@@ -79,5 +121,8 @@ export const Button = styled.button`
     box-shadow:0 0 26px 0 #3B4CC6B2;
     transition: 0.3s;
     cursor: pointer;
+  }
+  @media (max-width: 990px) {
+    width: 70%;
   }
 `
