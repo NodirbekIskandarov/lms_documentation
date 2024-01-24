@@ -75,4 +75,9 @@ export const Button = styled.button`
   font-size: 20px;
   font-weight: 500;
   padding: 20px 0;
+  &:hover{
+    box-shadow:0 0 26px 0 #3B4CC6B2;
+    transition: 0.3s;
+    cursor: pointer;
+  }
 `
