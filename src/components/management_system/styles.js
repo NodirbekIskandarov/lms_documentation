@@ -58,6 +58,12 @@ export const ManagementButtonVideo = styled.button`
   font-size: 20px;
   font-weight: 500;
   padding: 15.6px 0;
+  &:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+  }
   @media(max-width: 768px){
     padding: 12.8px 0;
     gap: 12px;
