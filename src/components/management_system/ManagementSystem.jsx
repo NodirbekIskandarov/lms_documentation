@@ -1,5 +1,5 @@
 import React from 'react'
-import { ManagementButtonVideo, ManagementButtons, ManagementImg, ManagementSection } from './styles'
+import { ManagementButtonVideo, ManagementButtons, ManagementImg, ManagementSection, TitleComponent } from './styles'
 import { Button } from '../../layouts/Navbar/styles'
 
 const ManagementSystem = () => {
@@ -7,9 +7,9 @@ const ManagementSystem = () => {
         <ManagementSection>
             <h1 className='management__component-h1'> <span>LMS</span> - Oliy ta’lim jarayonlarini boshqarish axborot tizimi</h1>
 
-            <p className='management__component-paragrif'>Ushbu axborot tizimi “Ma’muriy boshqaruv”, “O‘quv jarayoni”, “Ilmiy
+            <TitleComponent >Ushbu axborot tizimi “Ma’muriy boshqaruv”, “O‘quv jarayoni”, “Ilmiy
                 faoliyat” va “Moliyaviy boshqaruv” modullarini o‘z ichiga olgan.
-            </p>
+            </TitleComponent>
 
             <ManagementButtons>
                 <Button>Yo'riqnoma</Button>

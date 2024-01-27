@@ -3,6 +3,9 @@ import styled from "styled-components";
 export const OrganizationsSection = styled.section`
     /* width: 100%; */
     padding: 120px 0;
+    @media(max-width: 768px){
+        padding: 56px 0;
+    }
 
 `
 
@@ -33,11 +36,4 @@ export const OrganizationsFlags = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    img{
-        &:hover{
-            width: 110px;
-            height: 110px;
-            transition: 0.3s;
-        }
-    }
 `

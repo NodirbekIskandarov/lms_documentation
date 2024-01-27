@@ -27,7 +27,22 @@ export const ManagementSection = styled.section`
       font-size: 14px;
     }
   }
+
+  @media(max-width: 768px){
+    padding: 56px 0;
+  }
 `;
+
+export const TitleComponent = styled.p`
+    text-align: center;
+    margin: 24px 0 56px;
+    font-size: 24px;
+    line-height: 2rem;
+    @media (max-width: 768px) {
+      font-size: 14px;
+      line-height: 1.25rem;
+    }
+`
 
 export const ManagementButtons = styled.div`
 display: flex;
