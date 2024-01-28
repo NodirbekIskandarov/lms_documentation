@@ -1,15 +1,19 @@
 import React from 'react'
 import { ManagementButtonVideo, ManagementButtons, ManagementImg, ManagementSection, TitleComponent } from './styles'
 import { Button } from '../../layouts/Navbar/styles'
+import { Head3TitleContainer } from '../howUsing/styles'
 
 const ManagementSystem = () => {
     return (
         <ManagementSection>
-            <h1 className='management__component-h1'> <span>LMS</span> - Oliy ta’lim jarayonlarini boshqarish axborot tizimi</h1>
+            
+            <Head3TitleContainer>
+                <h1 className='management__component-h1'> <span>LMS</span> - Oliy ta’lim jarayonlarini boshqarish axborot tizimi</h1>
 
-            <TitleComponent >Ushbu axborot tizimi “Ma’muriy boshqaruv”, “O‘quv jarayoni”, “Ilmiy
-                faoliyat” va “Moliyaviy boshqaruv” modullarini o‘z ichiga olgan.
-            </TitleComponent>
+                <TitleComponent >Ushbu axborot tizimi “Ma’muriy boshqaruv”, “O‘quv jarayoni”, “Ilmiy
+                    faoliyat” va “Moliyaviy boshqaruv” modullarini o‘z ichiga olgan.
+                </TitleComponent>
+            </Head3TitleContainer>
 
             <ManagementButtons>
                 <Button>Yo'riqnoma</Button>
@@ -23,7 +27,7 @@ const ManagementSystem = () => {
 
             <ManagementImg>
                 <div>
-                    <img src="https://files.libertycity.ru/download/gta5_bmw/fulls/b63488b1f0e9dd1115959cb11b8224a1/16134056465533_w8sbhgp0pxq.jpg" alt="main" class="w-full object-contain"/>
+                    <img src="https://files.libertycity.ru/download/gta5_bmw/fulls/b63488b1f0e9dd1115959cb11b8224a1/16134056465533_w8sbhgp0pxq.jpg" alt="main" class="w-full object-contain" />
                 </div>
             </ManagementImg>
         </ManagementSection>

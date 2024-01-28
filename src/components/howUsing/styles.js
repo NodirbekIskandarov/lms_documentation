@@ -14,7 +14,16 @@ export const HowUsingSection = styled.section`
     }
 `
 
-export const HowUsingHead3 = styled.h3`
+export const Head3TitleContainer = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+`
+
+export const Head3 = styled.h3`
+    max-width: auto;
+    width: 832px;
+    max-width: 100%;
     font-size: 56px;
     /* line-height: 72px; */
     text-align: center;

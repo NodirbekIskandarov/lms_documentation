@@ -34,6 +34,9 @@ export const ManagementSection = styled.section`
 `;
 
 export const TitleComponent = styled.p`
+    max-width: auto;
+    width: 832px;
+    max-width: 100%;
     text-align: center;
     margin: 24px 0 56px;
     font-size: 24px;
@@ -41,6 +44,9 @@ export const TitleComponent = styled.p`
     @media (max-width: 768px) {
       font-size: 14px;
       line-height: 1.25rem;
+      br{
+        display: none;
+      }
     }
 `
 

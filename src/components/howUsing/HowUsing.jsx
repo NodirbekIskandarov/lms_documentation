@@ -1,21 +1,21 @@
 import React from 'react'
-import { HowUsingContainers, HowUsingEducation, HowUsingFlex, HowUsingHead3, HowUsingHead4, HowUsingHead5, HowUsingImg, HowUsingParagrifs, HowUsingSection, HowUsingWrap } from './styles'
+import { Head3, Head3TitleContainer, HowUsingContainers, HowUsingEducation, HowUsingFlex, HowUsingHead4, HowUsingHead5, HowUsingImg, HowUsingParagrifs, HowUsingSection, HowUsingWrap } from './styles'
 import { TitleComponent } from '../management_system/styles'
 
 const HowUsing = () => {
   return (
     <HowUsingSection>
 
-      <div className='how__using-title'>
-        <HowUsingHead3>Tizimdan qanday <br /> foydalanasiz?</HowUsingHead3>
+      <Head3TitleContainer className='how__using-title'>
+        <Head3>Tizimdan qanday foydalanasiz?</Head3>
         <TitleComponent>
-          O‘zbekiston Respublikasi oliy ta'lim muassasalari mas'ul <br /> xodimlari
+          O‘zbekiston Respublikasi oliy ta'lim muassasalari mas'ul xodimlari
           tomonidan amalga oshiriladigan ishlar:
         </TitleComponent>
-      </div>
+      </Head3TitleContainer>
 
       <HowUsingContainers>
-        <HowUsingEducation className='how__using-containers how__using-hover'>
+        <HowUsingEducation  className='how__using-containers how__using-hover'>
           <div>
             <div>
               <HowUsingHead4>LMS bilan ta’lim muassasasi</HowUsingHead4>

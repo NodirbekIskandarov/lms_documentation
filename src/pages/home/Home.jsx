@@ -3,6 +3,7 @@ import ManagementSystem from '../../components/management_system/ManagementSyste
 import Organizations from '../../components/organizations/Organizations'
 import HowUsing from '../../components/howUsing/HowUsing'
 import EducationalManagement from '../../components/educationalManagement/EducationalManagement'
+import Commentaries from '../../components/commentaries/Commentaries'
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <Organizations />
       <HowUsing />
       <EducationalManagement/>
+      <Commentaries/>
     </div>
   )
 }
