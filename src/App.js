@@ -6,6 +6,11 @@ import UniversitiesPage from "./pages/universities/UniversitiesPage";
 import FaqsPage from "./pages/faqs/FaqsPage";
 import DocumentationPage from "./pages/documentation/DocumentationPage";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init()
+
 
 function App() {
   return (

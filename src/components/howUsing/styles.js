@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const HowUsingSection = styled.section`
     padding:120px 0 ;
+    overflow: hidden;
     .how__using-title{
         width: 90%;
         margin: 0 auto;

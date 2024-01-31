@@ -1,4 +1,5 @@
 import React from 'react'
+
 import { Head3, Head3TitleContainer, HowUsingContainers, HowUsingEducation, HowUsingFlex, HowUsingHead4, HowUsingHead5, HowUsingImg, HowUsingParagrifs, HowUsingSection, HowUsingWrap } from './styles'
 import { TitleComponent } from '../management_system/styles'
 
@@ -15,7 +16,7 @@ const HowUsing = () => {
       </Head3TitleContainer>
 
       <HowUsingContainers>
-        <HowUsingEducation  className='how__using-containers how__using-hover'>
+        <HowUsingEducation data-aos="fade-down-right"  className='how__using-containers how__using-hover'>
           <div>
             <div>
               <HowUsingHead4>LMS bilan ta’lim muassasasi</HowUsingHead4>
@@ -29,10 +30,10 @@ const HowUsing = () => {
           </div>
         </HowUsingEducation>
 
-        <HowUsingWrap>
-          <div className='how__using-wrap'>
+        <HowUsingWrap >
+          <div className='how__using-wrap' >
 
-            <HowUsingFlex className='how__using-containers how__using-hover'>
+            <HowUsingFlex data-aos="fade-down-left" className='how__using-containers how__using-hover'>
 
               <div className='img__paragrifs-containers'>
                 <HowUsingHead5>LMS Mobile bilan ta’lim ma’lumotlaringiz doimo siz bilan!</HowUsingHead5>
@@ -46,7 +47,7 @@ const HowUsing = () => {
               </div>
             </HowUsingFlex>
 
-            <HowUsingFlex className='how__using-containers how__using-hover'>
+            <HowUsingFlex data-aos="fade-up-left" className='how__using-containers how__using-hover'>
 
               <div className='img__paragrifs-containers'>
                 <HowUsingHead5>Ma’lumotlar va fayllar xavfsizligi</HowUsingHead5>
