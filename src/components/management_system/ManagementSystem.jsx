@@ -27,7 +27,7 @@ const ManagementSystem = () => {
 
             <ManagementImg data-aos="zoom-in-up">
                 <div>
-                    <img src="https://files.libertycity.ru/download/gta5_bmw/fulls/b63488b1f0e9dd1115959cb11b8224a1/16134056465533_w8sbhgp0pxq.jpg" alt="main" class="w-full object-contain" />
+                    <img src="https://files.libertycity.ru/download/gta5_bmw/fulls/b63488b1f0e9dd1115959cb11b8224a1/16134056465533_w8sbhgp0pxq.jpg" alt="main" className="w-full object-contain" />
                 </div>
             </ManagementImg>
         </ManagementSection>

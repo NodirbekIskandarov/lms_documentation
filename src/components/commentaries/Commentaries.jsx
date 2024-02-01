@@ -16,7 +16,8 @@ const Commentaries = () => {
                 <Head3TitleContainer>
                     <Head3>Axborot tizimi yuzasidan fikr va  mulohazalar</Head3>
                     <TitleComponent>Oliy ta’lim muassasalari professor-o‘qituvchilari, xodimlari
-                        va talabalari tomonidan tizim bo‘yicha fikr va mulohazalar</TitleComponent>
+                        va talabalari tomonidan tizim bo‘yicha fikr va mulohazalar
+                    </TitleComponent>
                 </Head3TitleContainer>
 
                 <CommentariesCard>
@@ -69,20 +70,20 @@ const Commentaries = () => {
                     <CommentariesDiv className='media__1200-none'>
                         <div >
                             <CommentariesCards
-                            dataAos={"fade-down-left"}
+                                dataAos={"fade-down-left"}
                                 p={"Ilova super, ishlab chiquvchilari zo‘r do‘stlar! Hamma funksiyasi yaxshi ishlaydi va barcha ma’lumotlar mavjud! Lekin bir kamchilikni tuzatishingizni so‘rayman, ya’ni har safar ilovaga kirganimda login va parolni yana qayta kiritishim kerak. Hatto ilovaning o‘zida biron bir sozlamalarni o‘zgartirsam ham ilova login va parolni qayta kiritishni talab qiladi!"}
                                 bottomH5={"Амир Салимов"} bottomP={"Play Market"}
                                 bottomImg={"https://hemis.uz/_nuxt/img/HamidSodiq.ee04b57.png"}
                             />
 
                             <CommentariesCards
-                            dataAos={"fade-down-left"}
+                                dataAos={"fade-down-left"}
                                 p={"Ilova super, ishlab chiquvchilari zo‘r do‘stlar! Hamma funksiyasi yaxshi ishlaydi va barcha ma’lumotlar mavjud! Lekin bir kamchilikni tuzatishingizni so‘rayman, ya’ni har safar ilovaga kirganimda login va parolni yana qayta kiritishim kerak. Hatto ilovaning o‘zida biron bir sozlamalarni o‘zgartirsam ham ilova login va parolni qayta kiritishni talab qiladi!"}
                                 bottomH5={"Амир Салимов"} bottomP={"Play Market"}
                                 bottomImg={"https://hemis.uz/_nuxt/img/HamidSodiq.ee04b57.png"}
                             />
                             <CommentariesCards
-                            dataAos={"fade-down-left"}
+                                dataAos={"fade-down-left"}
                                 p={"Ilova super, ishlab chiquvchilari zo‘r do‘stlar! Hamma funksiyasi yaxshi ishlaydi va barcha ma’lumotlar mavjud! Lekin bir kamchilikni tuzatishingizni so‘rayman, ya’ni har safar ilovaga kirganimda login va parolni yana qayta kiritishim kerak. Hatto ilovaning o‘zida biron bir sozlamalarni o‘zgartirsam ham ilova login va parolni qayta kiritishni talab qiladi!"}
                                 bottomH5={"Амир Салимов"} bottomP={"Play Market"}
                                 bottomImg={"https://hemis.uz/_nuxt/img/HamidSodiq.ee04b57.png"}

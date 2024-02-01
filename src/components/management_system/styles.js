@@ -40,7 +40,7 @@ export const TitleComponent = styled.p`
     text-align: center;
     margin: 24px 0 56px;
     font-size: 24px;
-    line-height: 2rem;
+    line-height: 32px;
     @media (max-width: 768px) {
       font-size: 14px;
       line-height: 1.25rem;
