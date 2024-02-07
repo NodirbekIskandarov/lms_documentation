@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import {
   Button,
+  MenuSection,
   NavbarChildComponent,
   NavbarComponent,
   NavbarMenuComponent,
@@ -11,7 +12,11 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
 
-  const [iks, setIks] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
 
   return (
     <NavbarComponent>
@@ -114,7 +119,7 @@ function Navbar() {
         </div>
         <div className="button_part">
           <Button>Konsultatsiya</Button>
-          <button className="menu_bars" onClick={()=>setIks(true)}>
+          <button className="menu_bars" onClick={toggleMenu}>
             <svg
               width="24"
               height="24"
@@ -131,10 +136,10 @@ function Navbar() {
             </svg>
           </button>
         </div>
-        <div className={iks===true ? "menu_active" : "menu_when_media"}>
+        <MenuSection isOpen={isOpen}>
           <div className="header_part_menu">
-            <Link to="/"><img src={logo} alt="tift_logo" /></Link>
-            <button onClick={()=>setIks(false)}>x</button>
+            {/* <Link className="link_in" to="/"><img src={logo} alt="tift_logo" /></Link> */}
+            <button  onClick={toggleMenu}>x</button>
           </div>
           <NavbarMenuComponent>
             <div className="hover_part">
@@ -170,6 +175,7 @@ function Navbar() {
           <Link className="link" to="/">
             Tizim imkoniyatlari
           </Link>
+          <br/>
           <Link className="link" to="/">
             Integratsiya
           </Link>
@@ -227,7 +233,7 @@ function Navbar() {
           <Link className="link" to="/">
             FAQS
           </Link>
-        </div>
+        </MenuSection>
       </NavbarChildComponent>
     </NavbarComponent>
   );
