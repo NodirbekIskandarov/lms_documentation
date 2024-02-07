@@ -35,9 +35,6 @@ export const NavbarChildComponent = styled.div`
       display: none;
     }
   }
-  /* .menu_active {
-    display: block;
-  } */
   .menu_when_media {
     display: none;
     position: fixed;
@@ -47,9 +44,6 @@ export const NavbarChildComponent = styled.div`
     bottom: 0;
     z-index: 2;
     background-color: red;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-around; */
     .header_part_menu {
       width: 90%;
       margin: 0 auto;
@@ -126,3 +120,13 @@ export const Button = styled.button`
     width: 70%;
   }
 `
+export const MenuSection = styled.div`
+  position: fixed;
+  top: 0;
+  right: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  transition: right 0.3s ease;
+`;
