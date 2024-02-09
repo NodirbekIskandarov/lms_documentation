@@ -9,13 +9,20 @@ export const FooterChildComponent = styled.div`
     margin: 0 auto;
     padding: 50px 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 `
 export const FooterChildComponentCard = styled.div`
     width: 25%;
+    @media (max-width: 768px) {
+        width: 50%;
+    }
 `
 export const FooterCardTitle = styled.h2`
     color: white;
+    @media (max-width: 768px) {
+        font-size: 16px;
+    }
 `
 export const FooterMenuItem = styled.p`
     margin: 15px 0;
@@ -24,6 +31,11 @@ export const FooterMenuItem = styled.p`
         opacity: 0.5;
         text-decoration: none;
         font-size: 16px;
+    }
+    @media (max-width: 768px) {
+        .link {
+            font-size: 12px;
+        }
     }
 `
 export const FooterLineComponent = styled.div`
@@ -35,6 +47,7 @@ export const FooterSocialsComponent = styled.div`
     width: 90%;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 `
@@ -42,6 +55,7 @@ export const FooterSocialsList = styled.div`
     width: 20%;
     margin: 20px 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     .link {
@@ -49,15 +63,25 @@ export const FooterSocialsList = styled.div`
         text-decoration: none;
         font-size: 25px;
     }
+    @media (max-width: 768px) {
+        width: 30%;
+        .link {
+            font-size: 20px;
+        }
+    }
 `
 export const FooterSocialsText = styled.div`
     width: 40%;
-    display: flex;
-    align-items: center;
+    @media (max-width: 768px) {
+        width: 50%;
+    }
 `
 export const FooterSocialsTextP = styled.p`
     color: white;
     font-size: 16px;
     margin: 0;
     padding: 0;
+    @media (max-width: 768px) {
+        font-size: 12px;
+    }
 `
