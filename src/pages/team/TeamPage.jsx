@@ -1,8 +1,11 @@
 import React from 'react'
+import Team from '../../components/team/Team'
 
 const TeamPage = () => {
   return (
-    <div>TeamPage</div>
+    <div>
+      <Team/>
+    </div>
   )
 }
 
