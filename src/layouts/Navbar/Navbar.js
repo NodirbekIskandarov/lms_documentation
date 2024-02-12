@@ -113,7 +113,7 @@ function Navbar() {
               </p>
             </div>
           </NavbarMenuComponent>
-          <Link className="link" to="/">
+          <Link className="link" to="/faqs">
             FAQS
           </Link>
         </div>
