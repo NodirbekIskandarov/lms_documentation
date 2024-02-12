@@ -34,6 +34,7 @@ function Team() {
   return (
     <TeamMainComponent>
         <TeamChildComponent>
+            <TeamMemberName>LMS jamoasi</TeamMemberName>
             <TeamChildListBox>
                 {
                     data?.map((item, index) => {
