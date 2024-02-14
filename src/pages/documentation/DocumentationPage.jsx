@@ -1,8 +1,11 @@
 import React from 'react'
+import Documentations from '../../components/documentations/Documentations'
 
 const DocumentationPage = () => {
   return (
-    <div>DocumentationPage</div>
+    <div>
+      <Documentations/>
+    </div>
   )
 }
 

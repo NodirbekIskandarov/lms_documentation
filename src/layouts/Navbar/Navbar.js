@@ -80,32 +80,32 @@ function Navbar() {
                 </svg>
                 <div className="show_part">
                   <div className="link_item">
-                    <Link className="link" to="/">
+                    <Link className="link" to="/documentation">
                       Talabalarga
                     </Link>
                   </div>
                   <div className="link_item">
-                    <Link className="link" to="/">
+                    <Link className="link" to="/documentation">
                       O'qituvchilarga
                     </Link>
                   </div>
                   <div className="link_item">
-                    <Link className="link" to="/">
+                    <Link className="link" to="/documentation">
                       Adminstratorlarga
                     </Link>
                   </div>
                   <div className="link_item">
-                    <Link className="link" to="/">
+                    <Link className="link" to="/documentation">
                       Dekanlarga
                     </Link>
                   </div>
                   <div className="link_item">
-                    <Link className="link" to="/">
+                    <Link className="link" to="/documentation">
                       Kadrlarga
                     </Link>
                   </div>
                   <div className="link_item">
-                    <Link className="link" to="/">
+                    <Link className="link" to="/documentation">
                       Kafedra mudiriga
                     </Link>
                   </div>
